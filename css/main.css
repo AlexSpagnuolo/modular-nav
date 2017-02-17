@@ -23,23 +23,47 @@ body {
 
 h1 {
   margin: 0;
+}
+
+a, li {
+  text-decoration: none;
+  color: #0074d9;
+  text-align: left;
+  display: inline-block;
+}
+
+.masthead {
   text-align: center;
 }
 
-li {
+.nav {
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-  color: #0074d9
-}
-
 a:hover {
-  color: #e2e2e2;
-  background-color: #0074d9
+  color: #fff;
+  background-color: #0074d9;
 }
 
 header {
   background-color: #e2e2e2;
+}
+
+.current {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  ul {
+    text-align: right;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
 }
